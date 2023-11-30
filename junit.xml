@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="146" failures="0" errors="0" time="106.316">
+  <testsuite name="link request" errors="0" failures="0" skipped="0" timestamp="2023-11-29T11:26:28" time="22.484" tests="7">
+    <testcase classname="link request should generate variables" name="link request should generate variables" time="0.016">
+    </testcase>
+    <testcase classname="link request should generate variables with missing values" name="link request should generate variables with missing values" time="0.003">
+    </testcase>
+    <testcase classname="link request should generate opengraph values" name="link request should generate opengraph values" time="0">
+    </testcase>
+    <testcase classname="link request should shorten urls" name="link request should shorten urls" time="0.012">
+    </testcase>
+    <testcase classname="link request should return empty array if request failed" name="link request should return empty array if request failed" time="0.187">
+    </testcase>
+    <testcase classname="link request should decode variables" name="link request should decode variables" time="0.029">
+    </testcase>
+    <testcase classname="link request should get all values" name="link request should get all values" time="0.002">
+    </testcase>
+    <testcase classname="link request should get all values 2" name="link request should get all values 2" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="toArray request" errors="0" failures="0" skipped="0" timestamp="2023-11-29T11:26:51" time="0.554" tests="4">
+    <testcase classname="toArray request should valid jsonEducation" name="toArray request should valid jsonEducation" time="0.009">
+    </testcase>
+    <testcase classname="toArray request should valid education" name="toArray request should valid education" time="0.003">
+    </testcase>
+    <testcase classname="toArray request should valid education if it&apos; a string" name="toArray request should valid education if it&apos; a string" time="0.003">
+    </testcase>
+    <testcase classname="toArray request should valid education if it&apos; a string" name="toArray request should valid education if it&apos; a string" time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="profile request" errors="0" failures="0" skipped="0" timestamp="2023-11-29T11:26:52" time="1.406" tests="1">
+    <testcase classname="profile request should valid profile" name="profile request should valid profile" time="0.05">
+    </testcase>
+  </testsuite>
+  <testsuite name="campaign request" errors="0" failures="0" skipped="0" timestamp="2023-11-29T11:26:53" time="0.915" tests="3">
+    <testcase classname="campaign request should generate url query params with robolly variables" name="campaign request should generate url query params with robolly variables" time="0.02">
+    </testcase>
+    <testcase classname="campaign request should generate url query params with opengraph variables" name="campaign request should generate url query params with opengraph variables" time="0.008">
+    </testcase>
+    <testcase classname="campaign request should clean text" name="campaign request should clean text" time="0.006">
+    </testcase>
+  </testsuite>
+  <testsuite name="getDateExperience request" errors="0" failures="0" skipped="0" timestamp="2023-11-29T11:26:54" time="1.461" tests="11">
+    <testcase classname="getDateExperience request should valid date current" name="getDateExperience request should valid date current" time="0.013">
+    </testcase>
+    <testcase classname="getDateExperience request should valid date date3" name="getDateExperience request should valid date date3" time="0.004">
+    </testcase>
+    <testcase classname="getDateExperience request should start with 1 if contain / and start with 0" name="getDateExperience request should start with 1 if contain / and start with 0" time="0.003">
+    </testcase>
+    <testcase classname="getDateExperience request should parse invalid format" name="getDateExperience request should parse invalid format" time="0.003">
+    </testcase>
+    <testcase classname="getDateExperience request should not parse null" name="getDateExperience request should not parse null" time="0.003">
+    </testcase>
+    <testcase classname="getDateExperience request should not parse undefined" name="getDateExperience request should not parse undefined" time="0.002">
+    </testcase>
+    <testcase classname="getDateExperience request should be current" name="getDateExperience request should be current" time="0.002">
+    </testcase>
+    <testcase classname="getDateExperience request should be current" name="getDateExperience request should be current" time="0.002">
+    </testcase>
+    <testcase classname="getDateExperience request should return null if date is not a string" name="getDateExperience request should return null if date is not a string" time="0.001">
+    </testcase>
+    <testcase classname="getDateExperience request should not bugged #1" name="getDateExperience request should not bugged #1" time="0.003">
+    </testcase>
+    <testcase classname="getDateExperience request should coverered the case date is in wrong format" name="getDateExperience request should coverered the case date is in wrong format" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="5" timestamp="2023-11-29T11:26:55" time="77.719" tests="116">
+    <testcase classname=" strapi is defined" name=" strapi is defined" time="0.026">
+    </testcase>
+    <testcase classname="automation test should return request body" name="automation test should return request body" time="0.161">
+    </testcase>
+    <testcase classname="company test should create a company" name="company test should create a company" time="0.068">
+    </testcase>
+    <testcase classname="company test should create a company" name="company test should create a company" time="0.079">
+    </testcase>
+    <testcase classname="country test should create a country" name="country test should create a country" time="0.056">
+    </testcase>
+    <testcase classname="country test should create a country" name="country test should create a country" time="0.069">
+    </testcase>
+    <testcase classname="industry test should create a industry" name="industry test should create a industry" time="0.067">
+    </testcase>
+    <testcase classname="industry test should create a industry" name="industry test should create a industry" time="0.089">
+    </testcase>
+    <testcase classname="job test should create a job" name="job test should create a job" time="0.056">
+    </testcase>
+    <testcase classname="job test should create a job" name="job test should create a job" time="0.071">
+    </testcase>
+    <testcase classname="language test should create a language" name="language test should create a language" time="0.056">
+    </testcase>
+    <testcase classname="language test should create a language" name="language test should create a language" time="0.071">
+    </testcase>
+    <testcase classname="location test should create a location" name="location test should create a location" time="0.058">
+    </testcase>
+    <testcase classname="location test should create a location" name="location test should create a location" time="0.079">
+    </testcase>
+    <testcase classname="person test should create a person" name="person test should create a person" time="0.048">
+    </testcase>
+    <testcase classname="person test should not create a person twice" name="person test should not create a person twice" time="0.072">
+    </testcase>
+    <testcase classname="person test should get all person for the current user" name="person test should get all person for the current user" time="1.05">
+    </testcase>
+    <testcase classname="person test deprecated: should get the person if associate to the current user" name="person test deprecated: should get the person if associate to the current user" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="person test deprecated: should not get the person if not associate to the current user" name="person test deprecated: should not get the person if not associate to the current user" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="person test should get the person if associate to the current user" name="person test should get the person if associate to the current user" time="0.22">
+    </testcase>
+    <testcase classname="person test should get the person if associate to the current user with custom params" name="person test should get the person if associate to the current user with custom params" time="0.229">
+    </testcase>
+    <testcase classname="person test should not get the person if not associate to the current user" name="person test should not get the person if not associate to the current user" time="0.198">
+    </testcase>
+    <testcase classname="person test should return the number of people associate to the current user" name="person test should return the number of people associate to the current user" time="0.252">
+    </testcase>
+    <testcase classname="school test should create a school" name="school test should create a school" time="0.069">
+    </testcase>
+    <testcase classname="skills test should create a skills" name="skills test should create a skills" time="0.284">
+    </testcase>
+    <testcase classname="skills test should create a skills" name="skills test should create a skills" time="0.581">
+    </testcase>
+    <testcase classname="degree test should create a degree" name="degree test should create a degree" time="0.085">
+    </testcase>
+    <testcase classname="educations test should create educations" name="educations test should create educations" time="0.331">
+    </testcase>
+    <testcase classname="educations test should not create a second time educations" name="educations test should not create a second time educations" time="0.502">
+    </testcase>
+    <testcase classname="experiences test should create experiences" name="experiences test should create experiences" time="0.3">
+    </testcase>
+    <testcase classname="experiences test should not create a second time experiences" name="experiences test should not create a second time experiences" time="0.561">
+    </testcase>
+    <testcase classname="volunteer-experiences test should create volunteer-experiences" name="volunteer-experiences test should create volunteer-experiences" time="0.1">
+    </testcase>
+    <testcase classname="volunteer-experiences test should not create a second time volunteer-experiences" name="volunteer-experiences test should not create a second time volunteer-experiences" time="0.161">
+    </testcase>
+    <testcase classname="profile test should get user info and store it to collections" name="profile test should get user info and store it to collections" time="1.005">
+    </testcase>
+    <testcase classname="profile test should get user info but not store if exist" name="profile test should get user info but not store if exist" time="2.044">
+    </testcase>
+    <testcase classname="profile test should update user info" name="profile test should update user info" time="1.923">
+    </testcase>
+    <testcase classname="profile test should store the extract function result" name="profile test should store the extract function result" time="0.483">
+    </testcase>
+    <testcase classname="profile test should store the extension result" name="profile test should store the extension result" time="0.306">
+    </testcase>
+    <testcase classname="profile test should associate user to person" name="profile test should associate user to person" time="0.289">
+    </testcase>
+    <testcase classname="profile test should associate two user to person" name="profile test should associate two user to person" time="0.505">
+    </testcase>
+    <testcase classname="profile test should add the person to the two campaigns" name="profile test should add the person to the two campaigns" time="1.928">
+    </testcase>
+    <testcase classname="profile failed job should get user info and store it to collections #89" name="profile failed job should get user info and store it to collections #89" time="1.153">
+    </testcase>
+    <testcase classname="profile failed job should get user info and store it to collections #141" name="profile failed job should get user info and store it to collections #141" time="0.351">
+    </testcase>
+    <testcase classname="profile failed job should get user info and store it to collections #87" name="profile failed job should get user info and store it to collections #87" time="1.449">
+    </testcase>
+    <testcase classname="profile failed job should get user info and store it to collections #85" name="profile failed job should get user info and store it to collections #85" time="2.257">
+    </testcase>
+    <testcase classname="profile failed job should get user info and store it to collections #82" name="profile failed job should get user info and store it to collections #82" time="0.798">
+    </testcase>
+    <testcase classname="profile failed job should get user info and store it to collections #77" name="profile failed job should get user info and store it to collections #77" time="1.149">
+    </testcase>
+    <testcase classname="profile failed job should not bug if result is empty" name="profile failed job should not bug if result is empty" time="0.176">
+    </testcase>
+    <testcase classname="profile failed job should not bug if it&apos;s an object" name="profile failed job should not bug if it&apos;s an object" time="0.194">
+    </testcase>
+    <testcase classname="gologin test should get user info and store it to collections" name="gologin test should get user info and store it to collections" time="0.098">
+    </testcase>
+    <testcase classname="gologin test should save the gologin token" name="gologin test should save the gologin token" time="0.045">
+    </testcase>
+    <testcase classname="user test should create user" name="user test should create user" time="0.13">
+    </testcase>
+    <testcase classname="user test should login user with his token" name="user test should login user with his token" time="0.148">
+    </testcase>
+    <testcase classname="user test shouldn&apos;t login user with an invalid token" name="user test shouldn&apos;t login user with an invalid token" time="0.043">
+    </testcase>
+    <testcase classname="user test shouldn&apos;t login user if he&apos;s not confirmed" name="user test shouldn&apos;t login user if he&apos;s not confirmed" time="0.162">
+    </testcase>
+    <testcase classname="user test shouldn&apos;t login user if he&apos;s been blocked" name="user test shouldn&apos;t login user if he&apos;s been blocked" time="0.136">
+    </testcase>
+    <testcase classname="user test should add people to the user" name="user test should add people to the user" time="0.247">
+    </testcase>
+    <testcase classname="user test should find return only the authenticated user" name="user test should find return only the authenticated user" time="0.268">
+    </testcase>
+    <testcase classname="user test should findOne return the authenticated user" name="user test should findOne return the authenticated user" time="0.273">
+    </testcase>
+    <testcase classname="user test should findOne return not found if user findOne is not the authenticated user" name="user test should findOne return not found if user findOne is not the authenticated user" time="0.259">
+    </testcase>
+    <testcase classname="user test should register an user" name="user test should register an user" time="0.173">
+    </testcase>
+    <testcase classname="user test should register an user with same username" name="user test should register an user with same username" time="0.266">
+    </testcase>
+    <testcase classname="user test should update user" name="user test should update user" time="0.218">
+    </testcase>
+    <testcase classname="user test should not update other user with known id" name="user test should not update other user with known id" time="0.265">
+    </testcase>
+    <testcase classname="user test should not update user with username already taken" name="user test should not update user with username already taken" time="0.25">
+    </testcase>
+    <testcase classname="user test should not update user with email already taken" name="user test should not update user with email already taken" time="0.27">
+    </testcase>
+    <testcase classname="user test should not update user if password is empty" name="user test should not update user if password is empty" time="0.158">
+    </testcase>
+    <testcase classname="campaign test should get all campaigns if associate to the current user" name="campaign test should get all campaigns if associate to the current user" time="0.244">
+    </testcase>
+    <testcase classname="campaign test should get a campaign if associate to the current user" name="campaign test should get a campaign if associate to the current user" time="0.208">
+    </testcase>
+    <testcase classname="campaign test should not get a campaign if not associate to the current user" name="campaign test should not get a campaign if not associate to the current user" time="0.224">
+    </testcase>
+    <testcase classname="campaign test should create a link" name="campaign test should create a link" time="0">
+    </testcase>
+    <testcase classname="campaign test should add people to the campaign" name="campaign test should add people to the campaign" time="0.707">
+    </testcase>
+    <testcase classname="campaign test should delete people to the campaign" name="campaign test should delete people to the campaign" time="0.249">
+    </testcase>
+    <testcase classname="campaign test should find all user campaigns" name="campaign test should find all user campaigns" time="0.232">
+    </testcase>
+    <testcase classname="campaign test should send csv file with campaign information" name="campaign test should send csv file with campaign information" time="0.239">
+    </testcase>
+    <testcase classname="campaign test should get domain statistics" name="campaign test should get domain statistics" time="0.332">
+    </testcase>
+    <testcase classname="campaign test should generate image" name="campaign test should generate image" time="0.201">
+    </testcase>
+    <testcase classname="campaign test should return query strings variables" name="campaign test should return query strings variables" time="0.198">
+    </testcase>
+    <testcase classname="campaign test should generate query strings variables" name="campaign test should generate query strings variables" time="1.521">
+    </testcase>
+    <testcase classname="campaign test shouldn&apos;t send password in users" name="campaign test shouldn&apos;t send password in users" time="0">
+    </testcase>
+    <testcase classname="campaign test should create a campaign associate with the current user" name="campaign test should create a campaign associate with the current user" time="0.385">
+    </testcase>
+    <testcase classname="campaign test should create a campaign associate with the current user" name="campaign test should create a campaign associate with the current user" time="0.273">
+    </testcase>
+    <testcase classname="campaign test should create a campaign with template is not an id" name="campaign test should create a campaign with template is not an id" time="0.223">
+    </testcase>
+    <testcase classname="campaign test should create a campaign with preview" name="campaign test should create a campaign with preview" time="0.871">
+    </testcase>
+    <testcase classname="campaign test should return error in generateVariables if campaign is not found" name="campaign test should return error in generateVariables if campaign is not found" time="0.191">
+    </testcase>
+    <testcase classname="campaign test should return error in generateVariables if person is not found" name="campaign test should return error in generateVariables if person is not found" time="0.263">
+    </testcase>
+    <testcase classname="campaign test should return error in generateVariables if screenshot is not found" name="campaign test should return error in generateVariables if screenshot is not found" time="0.304">
+    </testcase>
+    <testcase classname="campaign test should return error in generateVariables if screenshot is not found" name="campaign test should return error in generateVariables if screenshot is not found" time="0.206">
+    </testcase>
+    <testcase classname="campaign test should generate an image" name="campaign test should generate an image" time="0.197">
+    </testcase>
+    <testcase classname="campaign test should be 5 campaigns maximum for starter plan" name="campaign test should be 5 campaigns maximum for starter plan" time="0.455">
+    </testcase>
+    <testcase classname="campaign test should had a domain entry to the created campaign" name="campaign test should had a domain entry to the created campaign" time="0.313">
+    </testcase>
+    <testcase classname="screenshot test should create a screenshot" name="screenshot test should create a screenshot" time="0.399">
+    </testcase>
+    <testcase classname="link test should get all links if associate to the current user" name="link test should get all links if associate to the current user" time="0.239">
+    </testcase>
+    <testcase classname="link test should not get the links which are not associate to the current user" name="link test should not get the links which are not associate to the current user" time="0.204">
+    </testcase>
+    <testcase classname="link test should get a link if associate to the current user" name="link test should get a link if associate to the current user" time="0.223">
+    </testcase>
+    <testcase classname="link test should not get the links which are not associate to the current user" name="link test should not get the links which are not associate to the current user" time="0.205">
+    </testcase>
+    <testcase classname="link test should get links stats" name="link test should get links stats" time="0.21">
+    </testcase>
+    <testcase classname="link test should update link" name="link test should update link" time="0.229">
+    </testcase>
+    <testcase classname="link test should get links who has clicks greater than 0" name="link test should get links who has clicks greater than 0" time="0.232">
+    </testcase>
+    <testcase classname="domain test should verify if the hostname is available" name="domain test should verify if the hostname is available" time="0.174">
+    </testcase>
+    <testcase classname="domain test should create a domain on short.io" name="domain test should create a domain on short.io" time="0.211">
+    </testcase>
+    <testcase classname="domain test should update a domain on short.io" name="domain test should update a domain on short.io" time="0.218">
+    </testcase>
+    <testcase classname="variable test should create a variable associate to a campaign" name="variable test should create a variable associate to a campaign" time="0.24">
+    </testcase>
+    <testcase classname="variable test should create bulk variables associate to a campaign" name="variable test should create bulk variables associate to a campaign" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="variable test should create a variable with variants" name="variable test should create a variable with variants" time="0.219">
+    </testcase>
+    <testcase classname="variable test should add a variant to existing variants" name="variable test should add a variant to existing variants" time="0.32">
+    </testcase>
+    <testcase classname="variable test should create bulk variables with variants" name="variable test should create bulk variables with variants" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="variable test should edit a variant" name="variable test should edit a variant" time="0.322">
+    </testcase>
+    <testcase classname="variable test should not create a same variant name" name="variable test should not create a same variant name" time="0.322">
+    </testcase>
+    <testcase classname="variable test should update slug when name change" name="variable test should update slug when name change" time="0.231">
+    </testcase>
+    <testcase classname="form test should generate correct url" name="form test should generate correct url" time="0.176">
+    </testcase>
+    <testcase classname="form test should redirect to correct url" name="form test should redirect to correct url" time="0.175">
+    </testcase>
+    <testcase classname="credit test should get all credits if associate to the current user" name="credit test should get all credits if associate to the current user" time="0.224">
+    </testcase>
+    <testcase classname="credit test should get a credit if associate to the current user" name="credit test should get a credit if associate to the current user" time="0.225">
+    </testcase>
+    <testcase classname="credit test should not get a credit if not associate to the current user" name="credit test should not get a credit if not associate to the current user" time="0.226">
+    </testcase>
+    <testcase classname="credit test should consume a credit when user add people to a campaign" name="credit test should consume a credit when user add people to a campaign" time="1.894">
+    </testcase>
+    <testcase classname="credit test should block request when user does not have enough credit" name="credit test should block request when user does not have enough credit" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="credit test should let admin user call route protected by has-credit policy" name="credit test should let admin user call route protected by has-credit policy" time="0">
+    </testcase>
+    <testcase classname="webhook test should update link click" name="webhook test should update link click" time="0.102">
+    </testcase>
+  </testsuite>
+  <testsuite name="format request" errors="0" failures="0" skipped="0" timestamp="2023-11-29T11:28:14" time="0.374" tests="1">
+    <testcase classname="format request should format input to output" name="format request should format input to output" time="0.008">
+    </testcase>
+  </testsuite>
+  <testsuite name="render test" errors="0" failures="0" skipped="0" timestamp="2023-11-29T11:28:14" time="0.181" tests="3">
+    <testcase classname="render test should render string" name="render test should render string" time="0.004">
+    </testcase>
+    <testcase classname="render test should render empty string if data is empty" name="render test should render empty string if data is empty" time="0.001">
+    </testcase>
+    <testcase classname="render test should work if variables if not set" name="render test should work if variables if not set" time="0.001">
+    </testcase>
+  </testsuite>
+</testsuites>

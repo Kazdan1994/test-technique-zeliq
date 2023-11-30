@@ -1,0 +1,8 @@
+node_modules
+exports
+*.cache
+build
+.strapi-updater.json
+.env
+.git
+*.md

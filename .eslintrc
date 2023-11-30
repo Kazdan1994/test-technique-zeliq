@@ -1,6 +1,9 @@
 {
-  "parser": "babel-eslint",
-  "extends": "eslint:recommended",
+  "parser": "@babel/eslint-parser",
+  "extends": [
+    "eslint:recommended",
+    "prettier"
+  ],
   "env": {
     "commonjs": true,
     "es6": true,
@@ -8,6 +11,7 @@
     "browser": false
   },
   "parserOptions": {
+    "requireConfigFile": false,
     "ecmaFeatures": {
       "experimentalObjectRestSpread": true,
       "jsx": false
@@ -21,7 +25,7 @@
     "indent": ["error", 2, { "SwitchCase": 1 }],
     "linebreak-style": ["error", "unix"],
     "no-console": 0,
-    "quotes": ["error", "single"],
+    "quotes": ["error", "single", { "avoidEscape": true }],
     "semi": ["error", "always"]
   }
 }
